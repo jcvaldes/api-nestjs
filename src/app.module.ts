@@ -6,8 +6,7 @@ import { CustomersModule } from './customers/customers.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://xxx:xxx@cluster0.k2q6w.mongodb.net/xxxx?retryWrites=true&w=majority',
-      // 'mongodb+srv://cencosud:swordfish@cluster0.wjkuq.mongodb.net/spid35?retryWrites=true&w=majority',
+      'mongodb+srv://xxx:xxx@cluster0.k2q6w.mongodb.net/xxx?retryWrites=true&w=majority',
       { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: true}
     ),
     CustomersModule
