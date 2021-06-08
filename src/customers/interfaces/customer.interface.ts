@@ -12,4 +12,5 @@ export interface Customer extends Document {
   cp: string;
   country: string;
   address: string;
+  active: boolean;
 }
